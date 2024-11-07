@@ -1,0 +1,49 @@
+body {
+  padding-top: 90px;
+  padding-left: 35px;
+  padding-right: 25px;
+  padding-bottom: 50px;
+  font-family: eczar, arial;
+}
+
+.header {
+  font-family: eczar, arial;
+  font-size: 32px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(107, 107, 107);
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+  right: 0;
+  gap: 2;
+  padding: 6px 20px;
+}
+
+.tie-clip-describe {
+  text-align: center;
+  padding-bottom: 36px;
+}
+
+.tie-clip-instructions {
+  padding-bottom: 36px;
+}
+
+.video-container {
+  width: 400px;
+  height: 225px;
+  display: block;
+  margin: 0 auto; /* Centers the video horizontally */
+  padding-bottom: 30px;
+  min-height: 300px; /* Adjust to prevent overlap */
+}
+
+.how-to-buy {
+  margin-top: 18px;
+  display: block;
+}

@@ -1,0 +1,108 @@
+body {
+  padding-top: 90px;
+  font-family: eczar, arial;
+}
+
+.header {
+  font-family: eczar, arial;
+  font-size: 32px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(107, 107, 107);
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+  right: 0;
+  gap: 2;
+  padding: 6px 20px;
+}
+
+/* Flex container styling */
+.landing-page-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Distributes space around items */
+  gap: 20px 25px; /* Replaces column-gap and row-gap */
+  margin-top: 20px;
+  font-family: eczar, arial;
+}
+
+/* Common styles for all tie containers */
+.neck-tie-container,
+.bow-tie-container,
+.cravat-tie-container,
+.bolo-tie-container,
+.ascot-tie-container,
+.clip-on-tie-container,
+.kipper-tie-container,
+.scarf-container,
+.tie-clip-container,
+.suit-container {
+  border: hidden 10px rgb(201, 199, 199);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: box-shadow 0.15s ease-in-out;
+  font-family: eczar, arial;
+}
+
+.neck-tie-container:hover,
+.bow-tie-container:hover,
+.cravat-tie-container:hover,
+.bolo-tie-container:hover,
+.ascot-tie-container:hover,
+.clip-on-tie-container:hover,
+.kipper-tie-container:hover,
+.scarf-container:hover,
+.tie-clip-container:hover,
+.suit-container:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Title styling for all tie containers */
+.neck-tie-title,
+.bow-tie-title,
+.cravat-tie-title,
+.bolo-tie-title,
+.ascot-tie-title,
+.clip-on-tie-title,
+.kipper-tie-title,
+.scarf-title,
+.tie-clip-title,
+.suit-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  font-family: eczar, arial;
+}
+
+/* Image styling for all tie containers */
+.neck-tie-pic,
+.bow-tie-pic,
+.cravat-tie-pic,
+.bolo-tie-pic,
+.ascot-tie-pic,
+.clip-on-tie-pic,
+.kipper-tie-pic,
+.scarf-pic,
+.tie-clip-pic,
+.suit-pic {
+  height: 280px;
+  width: 220px;
+  display: block;
+  margin: 0 auto; /* Centers the image */
+}
+
+a {
+  text-decoration: none; /* Removes the underline */
+  color: inherit; /* Inherits the text color from the parent */
+}
+
+a:visited {
+  color: inherit; /* Ensures visited links don't change color */
+}
